@@ -8,3 +8,4 @@ RUN tar -xvzf /git-lfs/* -C /git-lfs
 RUN bash /git-lfs/install.sh
 RUN git lfs install
 RUN rm -rf /git-lfs
+RUN apt clean
